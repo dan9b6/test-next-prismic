@@ -1,26 +1,339 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap");
+h1,
+.h1 {
+  font-weight: 800;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  line-height: 1.5;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+h2,
+.h2 {
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+h3,
+.h3 {
+  margin-bottom: 1.25rem;
+  font-size: 1.5rem;
+}
+
+h4,
+.h4 {
+  font-size: 1.25rem;
+}
+
+h4,
+.h4,
+h5,
+.h5 {
+  margin-bottom: 1.1rem;
+}
+
+p,
+li {
+  margin-bottom: 1rem;
 }
 
 * {
-  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
+body {
+  line-height: 1.25;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  padding: 0 1rem;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
   }
 }
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1380px;
+  }
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  gap: 1rem;
+}
+
+.grid-item {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+@media (min-width: 768px) {
+  .grid--2, .grid--4, .grid--5, .grid--6 {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .grid--2 {
+    gap: 4rem;
+  }
+  .grid--5 > div:first-child {
+    grid-column: 1 span 2;
+  }
+}
+
+@media (min-width: 992px) {
+  .grid--4 {
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+  }
+  .grid--3, .grid--6 {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .grid--5 {
+    -ms-grid-columns: (1fr)[5];
+        grid-template-columns: repeat(5, 1fr);
+  }
+  .grid--6 {
+    -ms-grid-columns: (1fr)[6];
+        grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+.btn {
+  padding: 0.75rem 1rem;
+  display: inline-block;
+  position: relative;
+  background-color: #2a643b;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0.5rem;
+}
+
+.btn-secondary {
+  background-color: #48af67;
+}
+
+.btn-tertiary {
+  background-color: #fff;
+  color: #2a643b;
+}
+
+.banner {
+  position: relative;
+  color: #fff;
+  padding: 8rem 0 5rem;
+  text-align: center;
+  border-bottom: 4px solid #48af67;
+  background-color: #2a643b;
+}
+
+.banner em {
+  padding: 0.5rem 0.75rem;
+  background-color: #48af67;
+  font-style: normal;
+  border-radius: 0.5rem;
+}
+
+.banner-grid {
+  min-height: 60vh;
+  display: -ms-grid;
+  display: grid;
+  gap: 1rem;
+}
+
+.banner-grid-item {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  position: relative;
+  z-index: 2;
+}
+
+.banner-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.banner-ctas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.banner-ctas .btn {
+  margin-bottom: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .banner {
+    text-align: start;
+  }
+  .banner:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background-color: #2a643b;
+    z-index: 1;
+  }
+  .banner-grid {
+    gap: 4rem;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .banner-grid-item {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .banner-ctas {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .banner-ctas .btn {
+    margin-right: 0.75rem;
+  }
+}
+
+.section {
+  position: relative;
+  padding: 4rem 0;
+}
+
+.section-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section-header {
+  text-align: center;
+}
+
+.section--grey {
+  background-color: #e7e7e7;
+}
+
+.section--centered {
+  text-align: center;
+}
+
+.section--default .section-img {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border-radius: 0.5rem;
+}
+
+.section--default .section-text {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.card {
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 4px 0px 8px #e7e7e7;
+          box-shadow: 4px 0px 8px #e7e7e7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+}
+
+.card-img {
+  height: 200px;
+  border-radius: 0.5rem 0.5rem 0 0;
+  margin-bottom: 1rem;
+}
+
+.card-body {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+.card-footer {
+  margin-top: 1rem;
+}
+/*# sourceMappingURL=globals.css.map */

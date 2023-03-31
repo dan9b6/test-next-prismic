@@ -1,0 +1,110 @@
+{
+  "id": "section_block",
+  "type": "SharedSlice",
+  "name": "SectionBlock",
+  "description": "SectionBlock",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "SectionBlock",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "A nice description of your feature",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "background_image": {
+          "type": "Image",
+          "config": {
+            "label": "Background Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "style": {
+          "type": "Select",
+          "config": {
+            "label": "Style",
+            "placeholder": "",
+            "options": [
+              "Image Right",
+              "Image Left",
+              "Centered"
+            ]
+          }
+        },
+        "background_colour": {
+          "type": "Boolean",
+          "config": {
+            "label": "Background Colour",
+            "placeholder_false": "White",
+            "placeholder_true": "Grey",
+            "default_value": false
+          }
+        },
+        "text_colour": {
+          "type": "Boolean",
+          "config": {
+            "label": "Text Colour",
+            "placeholder_false": "Dark",
+            "placeholder_true": "Light",
+            "default_value": false
+          }
+        }
+      },
+      "items": {
+        "cta_text": {
+          "type": "Text",
+          "config": {
+            "label": "CTA Text",
+            "placeholder": ""
+          }
+        },
+        "cta_link": {
+          "type": "Link",
+          "config": {
+            "label": "CTA Link",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "cta_style": {
+          "type": "Select",
+          "config": {
+            "label": "CTA Style",
+            "placeholder": "",
+            "options": [
+              "Button Primary",
+              "Button Secondary",
+              "Button Tertiary"
+            ]
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

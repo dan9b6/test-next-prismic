@@ -1,0 +1,44 @@
+{
+  "slices": {
+    "SectionBlock": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "NavigationLink": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "GridBlock": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "LinksBlock": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "BannerBlock": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "CardsBlock": {
+      "default": {
+        "primary": {}
+      }
+    }
+  },
+  "_cts": {
+    "home_page": {},
+    "page": {},
+    "header": {},
+    "service": {},
+    "footer": {}
+  }
+}

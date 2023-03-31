@@ -1,0 +1,135 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "title": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "heading1",
+            "content": {
+              "text": "Harder"
+            }
+          }
+        ]
+      },
+      "description": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Sit culpa cillum consequat irure fugiat veniam ex laborum esse do dolore. Quis ea eiusmod est cupidatat consectetur ex nulla ex minim et cillum eiusmod ex. Ut esse duis incididunt id dolor et aliqua dolore duis minim laborum ut."
+            }
+          }
+        ]
+      },
+      "background_image": {
+        "origin": {
+          "id": "main",
+          "url": "https://images.unsplash.com/photo-1587905069134-008460d7a636",
+          "width": 3935,
+          "height": 5894
+        },
+        "url": "https://images.unsplash.com/photo-1587905069134-008460d7a636",
+        "width": 3935,
+        "height": 5894,
+        "edit": {
+          "zoom": 1,
+          "crop": {
+            "x": 0,
+            "y": 0
+          },
+          "background": "transparent"
+        },
+        "credits": null,
+        "alt": null,
+        "__TYPE__": "ImageContent",
+        "thumbnails": {}
+      },
+      "background_colour": {
+        "__TYPE__": "BooleanContent",
+        "value": false
+      },
+      "columns": {
+        "__TYPE__": "FieldContent",
+        "value": "4",
+        "type": "Select"
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "item_heading",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "whale",
+              "type": "Text"
+            }
+          ],
+          [
+            "item_description",
+            {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Ad commodo sint esse aute ea velit tempor voluptate veniam reprehenderit magna do tempor ipsum. Elit sit exercitation incididunt aliquip incididunt dolor est."
+                  }
+                }
+              ]
+            }
+          ],
+          [
+            "item_image",
+            {
+              "origin": {
+                "id": "main",
+                "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+                "width": 3882,
+                "height": 2584
+              },
+              "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+              "width": 3882,
+              "height": 2584,
+              "edit": {
+                "zoom": 1,
+                "crop": {
+                  "x": 0,
+                  "y": 0
+                },
+                "background": "transparent"
+              },
+              "credits": null,
+              "alt": null,
+              "__TYPE__": "ImageContent",
+              "thumbnails": {}
+            }
+          ],
+          [
+            "item_cta_text",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "remember",
+              "type": "Text"
+            }
+          ],
+          [
+            "item_cta_link",
+            {
+              "__TYPE__": "LinkContent",
+              "value": {
+                "__TYPE__": "ExternalLink",
+                "url": "http://google.com"
+              }
+            }
+          ]
+        ]
+      }
+    ]
+  }
+]

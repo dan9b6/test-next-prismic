@@ -1,0 +1,25 @@
+.card {
+  border-radius: $border-radius;
+  box-shadow: 4px 0px 8px $c-light-grey;
+  display: flex;
+  flex-direction: column;
+  background-color: $c-white;
+
+  &-img {
+    height: 200px;
+    border-radius: $border-radius $border-radius 0 0;
+    margin-bottom: 1rem;
+  }
+
+  &-body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  &-footer {
+    margin-top: 1rem;
+  }
+}

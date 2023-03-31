@@ -1,0 +1,109 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "title": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "heading1",
+            "content": {
+              "text": "Wheel"
+            }
+          }
+        ]
+      },
+      "description": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Aute anim consequat voluptate officia id ex qui proident elit. Deserunt eu nisi velit nulla reprehenderit eu amet exercitation ex consectetur aute incididunt pariatur consectetur. Eiusmod in labore ut ullamco anim esse."
+            }
+          }
+        ]
+      },
+      "background_image": {
+        "__TYPE__": "ImageContent",
+        "origin": {
+          "id": "main",
+          "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468",
+          "width": 4000,
+          "height": 6000
+        },
+        "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468",
+        "width": 4000,
+        "height": 6000,
+        "edit": {
+          "zoom": 1,
+          "crop": {
+            "x": 0,
+            "y": 0
+          },
+          "background": "transparent"
+        },
+        "thumbnails": {}
+      },
+      "image": {
+        "__TYPE__": "ImageContent",
+        "origin": {
+          "id": "main",
+          "url": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6",
+          "width": 3212,
+          "height": 3880
+        },
+        "url": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6",
+        "width": 3212,
+        "height": 3880,
+        "edit": {
+          "zoom": 1,
+          "crop": {
+            "x": 0,
+            "y": 0
+          },
+          "background": "transparent"
+        },
+        "thumbnails": {}
+      },
+      "text_colour": {
+        "__TYPE__": "BooleanContent",
+        "value": true
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "cta_text",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "deer",
+              "type": "Text"
+            }
+          ],
+          [
+            "cta_link",
+            {
+              "__TYPE__": "LinkContent",
+              "value": {
+                "__TYPE__": "ExternalLink",
+                "url": "https://prismic.io"
+              }
+            }
+          ],
+          [
+            "style",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "Button Tertiary",
+              "type": "Select"
+            }
+          ]
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "title": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "heading1",
+            "content": {
+              "text": "Wonder"
+            }
+          }
+        ]
+      },
+      "description": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Reprehenderit Lorem laboris aliquip commodo consectetur voluptate consequat eiusmod quis in Lorem ex exercitation. Ea eiusmod dolore Lorem laboris commodo quis consectetur dolor."
+            }
+          }
+        ]
+      },
+      "columns": {
+        "__TYPE__": "FieldContent",
+        "value": "5",
+        "type": "Select"
+      },
+      "background_image": {
+        "__TYPE__": "ImageContent",
+        "origin": {
+          "id": "main",
+          "url": "https://images.unsplash.com/photo-1560762484-813fc97650a0",
+          "width": 3344,
+          "height": 2509
+        },
+        "url": "https://images.unsplash.com/photo-1560762484-813fc97650a0",
+        "width": 3344,
+        "height": 2509,
+        "edit": {
+          "zoom": 1,
+          "crop": {
+            "x": 0,
+            "y": 0
+          },
+          "background": "transparent"
+        },
+        "thumbnails": {}
+      },
+      "background_colour": {
+        "__TYPE__": "BooleanContent",
+        "value": false
+      },
+      "text_colour": {
+        "__TYPE__": "BooleanContent",
+        "value": true
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "item_heading",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "store",
+              "type": "Text"
+            }
+          ],
+          [
+            "item_description",
+            {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Eiusmod laboris minim sint Lorem enim exercitation irure ullamco qui exercitation pariatur."
+                  }
+                }
+              ]
+            }
+          ],
+          [
+            "item_image",
+            {
+              "__TYPE__": "ImageContent",
+              "origin": {
+                "id": "main",
+                "url": "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab",
+                "width": 12288,
+                "height": 16384
+              },
+              "url": "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab",
+              "width": 12288,
+              "height": 16384,
+              "edit": {
+                "zoom": 1,
+                "crop": {
+                  "x": 0,
+                  "y": 0
+                },
+                "background": "transparent"
+              },
+              "thumbnails": {}
+            }
+          ],
+          [
+            "item_cta_link",
+            {
+              "__TYPE__": "LinkContent",
+              "value": {
+                "__TYPE__": "ExternalLink",
+                "url": "http://twitter.com"
+              }
+            }
+          ],
+          [
+            "item_cta_text",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "able",
+              "type": "Text"
+            }
+          ]
+        ]
+      }
+    ]
+  }
+]

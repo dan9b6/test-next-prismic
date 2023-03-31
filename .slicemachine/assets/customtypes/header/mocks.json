@@ -1,0 +1,91 @@
+{
+  "uid": {
+    "__TYPE__": "UIDContent",
+    "value": "victory"
+  },
+  "logo": {
+    "__TYPE__": "ImageContent",
+    "origin": {
+      "id": "main",
+      "url": "https://images.unsplash.com/photo-1547082299-de196ea013d6",
+      "width": 4272,
+      "height": 2848
+    },
+    "url": "https://images.unsplash.com/photo-1547082299-de196ea013d6",
+    "width": 4272,
+    "height": 2848,
+    "edit": {
+      "zoom": 1,
+      "crop": {
+        "x": 0,
+        "y": 0
+      },
+      "background": "transparent"
+    },
+    "thumbnails": {}
+  },
+  "cta_text": {
+    "__TYPE__": "FieldContent",
+    "value": "vote",
+    "type": "Text"
+  },
+  "cta_link": {
+    "__TYPE__": "LinkContent",
+    "value": {
+      "__TYPE__": "ExternalLink",
+      "url": "https://slicemachine.dev"
+    }
+  },
+  "slices": {
+    "__TYPE__": "SliceContentType",
+    "value": [
+      {
+        "key": "navigation_link$73004565-c57e-4ac0-844a-f126f29deabb",
+        "name": "navigation_link",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {
+            "text": {
+              "__TYPE__": "FieldContent",
+              "value": "pressure",
+              "type": "Text"
+            },
+            "link": {
+              "__TYPE__": "LinkContent",
+              "value": {
+                "__TYPE__": "ExternalLink",
+                "url": "https://prismic.io"
+              }
+            }
+          },
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": [
+                [
+                  "child_text",
+                  {
+                    "__TYPE__": "FieldContent",
+                    "value": "elephant",
+                    "type": "Text"
+                  }
+                ],
+                [
+                  "child_link",
+                  {
+                    "__TYPE__": "LinkContent",
+                    "value": {
+                      "__TYPE__": "ExternalLink",
+                      "url": "http://google.com"
+                    }
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

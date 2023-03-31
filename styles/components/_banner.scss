@@ -1,0 +1,81 @@
+.banner {
+  position: relative;
+  color: $c-white;
+  padding: 8rem 0 5rem;
+  text-align: center;
+  border-bottom: 4px solid $c-green;
+  background-color: $c-dark-green;
+
+  em {
+    padding: 0.5rem 0.75rem;
+    background-color: $c-green;
+    font-style: normal;
+    border-radius: $border-radius;
+  }
+
+  &-grid {
+    min-height: 60vh;
+    display: grid;
+    gap: 1rem;
+
+    &-item {
+      align-self: center;
+      position: relative;
+      z-index: 2;
+    }
+  }
+
+  &-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &-ctas {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    .btn {
+      margin-bottom: 0.75rem;
+    }
+  }
+}
+
+@media (min-width: $md) {
+  .banner {
+    text-align: start;
+
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 50%;
+      background-color: $c-dark-green;
+      z-index: 1;
+    }
+
+    &-grid {
+      gap: 4rem;
+      grid-template-columns: repeat(2, 1fr);
+
+      &-item {
+        align-self: center;
+      }
+    }
+
+    &-ctas {
+      flex-direction: row;
+
+      .btn {
+        margin-right: 0.75rem;
+      }
+    }
+  }
+}

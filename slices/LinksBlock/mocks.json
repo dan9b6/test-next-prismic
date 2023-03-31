@@ -1,0 +1,55 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "description": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Duis veniam occaecat adipisicing id non culpa culpa mollit enim mollit voluptate. Laboris duis ullamco nulla aliquip quis ut officia tempor dolor. Cupidatat amet irure anim sint veniam quis."
+            }
+          }
+        ]
+      },
+      "heading": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "heading3",
+            "content": {
+              "text": "Animal"
+            }
+          }
+        ]
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "link",
+            {
+              "__TYPE__": "LinkContent",
+              "value": {
+                "__TYPE__": "ExternalLink",
+                "url": "http://twitter.com"
+              }
+            }
+          ],
+          [
+            "link_text",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "useful",
+              "type": "Text"
+            }
+          ]
+        ]
+      }
+    ]
+  }
+]

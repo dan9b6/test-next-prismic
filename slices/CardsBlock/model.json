@@ -1,0 +1,107 @@
+{
+  "id": "cards_block",
+  "type": "SharedSlice",
+  "name": "CardsBlock",
+  "description": "CardsBlock",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "CardsBlock",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "A nice description of your feature",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "background_image": {
+          "type": "Image",
+          "config": {
+            "label": "Background Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "background_colour": {
+          "type": "Boolean",
+          "config": {
+            "label": "Background Colour",
+            "placeholder_false": "White",
+            "placeholder_true": "Grey",
+            "default_value": false
+          }
+        },
+        "columns": {
+          "type": "Select",
+          "config": {
+            "label": "Columns",
+            "placeholder": "",
+            "options": [
+              "2",
+              "3",
+              "4",
+              "5",
+              "6"
+            ]
+          }
+        }
+      },
+      "items": {
+        "item_heading": {
+          "type": "Text",
+          "config": {
+            "label": "Item Heading",
+            "placeholder": ""
+          }
+        },
+        "item_description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Item Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "item_image": {
+          "type": "Image",
+          "config": {
+            "label": "Item Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "item_cta_text": {
+          "type": "Text",
+          "config": {
+            "label": "Item CTA Text",
+            "placeholder": ""
+          }
+        },
+        "item_cta_link": {
+          "type": "Link",
+          "config": {
+            "label": "Item CTA Link",
+            "placeholder": "",
+            "select": null
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}
